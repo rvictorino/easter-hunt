@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f2a7c3" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Easter Hunt" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <title>Easter Egg Hunt</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="hunt-title"></h1>
+      <p id="progress"></p>
+      <div class="progress-track">
+        <div id="progress-bar"></div>
+      </div>
+    </header>
+    <main>
+      <ul id="egg-list"></ul>
+      <p id="complete-msg">🎉 You found them all! Happy Easter!</p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
